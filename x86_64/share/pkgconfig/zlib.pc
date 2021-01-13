@@ -1,0 +1,13 @@
+prefix=/Volumes/data/hw/x86_64
+exec_prefix=/Volumes/data/hw/x86_64
+libdir=/Volumes/data/hw/x86_64/lib
+sharedlibdir=/Volumes/data/hw/x86_64/lib
+includedir=/Volumes/data/hw/x86_64/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

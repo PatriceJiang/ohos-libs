@@ -1,0 +1,13 @@
+prefix=/Volumes/data/hw/arm64
+exec_prefix=/Volumes/data/hw/arm64
+libdir=/Volumes/data/hw/arm64/lib
+sharedlibdir=/Volumes/data/hw/arm64/lib
+includedir=/Volumes/data/hw/arm64/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/Volumes/data/hw/x86_64
+exec_prefix=/Volumes/data/hw/x86_64
+libdir=/Volumes/data/hw/x86_64/lib
+includedir=/Volumes/data/hw/x86_64/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.16
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}
